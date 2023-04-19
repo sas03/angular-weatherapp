@@ -1,9 +1,14 @@
+//export interface WeatherData for other classes
 export interface WeatherData {
+    //key location, value interface Location
     location: Location
+    //key current, value interface Current
     current: Current
 }
 
+//export interface Location
 export interface Location {
+    //key name, value string
     name: string
     region: string
     country: string

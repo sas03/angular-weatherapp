@@ -4,6 +4,7 @@
 
 export const environment = {
   production: false,
+  //Add Api-properties(with key and values) to the environment variable for other classes
   weatherApiBaseUrl: 'https://weatherapi-com.p.rapidapi.com/current.json',
   XRapidAPIHostHeaderName: 'X-RapidAPI-Host',
   XRapidAPIHostHeaderValue: 'weatherapi-com.p.rapidapi.com',
